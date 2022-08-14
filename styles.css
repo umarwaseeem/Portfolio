@@ -1,0 +1,98 @@
+
+/*! individual stuff */
+
+*{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+/*! nav bar */
+
+#nav-bar{
+    width: 550px;
+    margin-left: auto;
+}
+
+.nav-bar-item {
+    display: inline-block;
+    margin: 32px 50px;
+    /*  apply font plain */
+    font-family: 'Plain', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-bar-item:hover {
+    background: linear-gradient(to right, #CCFF00 0%, #FFA800 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* ! upper whole div */
+
+.upper-portion{
+    height: 100vh;
+    background-color: #000000;
+}
+
+#main-text-div{
+    height: 192px;
+    width: 910px;
+    margin: 0 auto;
+}
+
+.main-text{
+    font-size: 84px;
+    font-family: 'Plain', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#gradient-word{
+    background: linear-gradient(to right, #CCFF00 0%, #FFA800 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#half-image-div{
+    height: 340px;
+    width: 340px;
+    margin: 53px auto;
+}
+
+/* ! middle portion */
+
+#middle-portion{
+    height: 100vh;
+    background-color: grey;
+}
+
+
+/* ! lower-portion */
+
+#lower-portion{
+    height: 100vh;
+    background-color: #000000;
+}
+
+
+
+
+
+

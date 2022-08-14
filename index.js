@@ -12,4 +12,10 @@ $(document).ready(function() {
     }
 );
 
+function toggleTheme(){
+    document.body.classList.toggle("dark");
+}
 
+//  execute toggle() when img is clicked
+
+document.getElementById("half-image").addEventListener("click", toggleTheme);

@@ -28,10 +28,10 @@ ul {
 .nav-bar-item {
     display: inline-block;
     margin: 32px 50px;
-    /*  apply font plain */
     font-family: 'Plain', sans-serif;
     font-weight: 600;
     font-size: 20px;
+    color: var(--t-color);
 }
 
 .nav-bar-item:hover {
@@ -45,7 +45,7 @@ ul {
 
 .upper-portion{
     height: 100vh;
-    background-color: #000000;
+    background-color: var(--bg-color);
 }
 
 #main-text-div{
@@ -58,7 +58,7 @@ ul {
     font-size: 84px;
     font-family: 'Plain', sans-serif;
     font-weight: 700;
-    color: #fff;
+    color: var(--t-color);
     text-align: center;
     margin-top: 60px;
 }
@@ -88,9 +88,18 @@ ul {
 
 #lower-portion{
     height: 100vh;
-    background-color: #000000;
+    background-color: var(--bg-color);
 }
 
+:root{
+    --t-color: black;
+    --bg-color: white;
+}
+
+.dark{
+    --t-color: white;
+    --bg-color: black;
+}
 
 
 
